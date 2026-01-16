@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowRight, Server, Mail, ConciergeBell } from "lucide-react";
 import Compass from "@/components/ui/Compass";
 import FleetGallery from "@/components/ui/FleetGallery";
@@ -7,21 +6,7 @@ import FleetGallery from "@/components/ui/FleetGallery";
 export default function Home() {
     return (
         <main className="flex flex-col items-center justify-between min-h-screen">
-            {/* Transparent Navbar */}
-            <nav className="w-full p-6 flex justify-between items-center fixed top-0 z-50 bg-transparent transition-all duration-300">
-                <div className="flex items-center gap-2">
-                    <Image src="/logo-v2.png" alt="Red Boat Media" width={160} height={160} className="w-32 md:w-40 h-auto" />
-                    {/* Text removed per request */}
-                </div>
-                <div className="hidden md:flex gap-8 text-sm uppercase tracking-widest text-gray-200">
-                    <Link href="#services" className="hover:text-[#FF512F] transition-colors">Services</Link>
-                    <Link href="#about" className="hover:text-[#FF512F] transition-colors">About</Link>
-                    <Link href="#contact" className="hover:text-[#FF512F] transition-colors">Contact</Link>
-                </div>
-                <button className="bg-transparent border border-white/20 text-white px-6 py-2 rounded-full font-sans text-sm hover:bg-white/10 transition-colors">
-                    Client Login
-                </button>
-            </nav>
+
 
             {/* Vignette Hero Section */}
             <section className="relative w-full h-screen overflow-hidden bg-black flex items-center">
