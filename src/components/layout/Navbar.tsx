@@ -15,7 +15,7 @@ export default function Navbar() {
                 <Link href="/contact" className="hover:text-[#FF512F] transition-colors">Contact</Link>
             </div>
             <button className="bg-transparent border border-white/20 text-white px-6 py-2 rounded-full font-sans text-sm hover:bg-white/10 transition-colors">
-                <a href="https://manage.redboatmedia.com" target="_blank" rel="noopener noreferrer">Client Login</a>
+                <a href="https://manage.redboatmedia.com">Client Login</a>
             </button>
         </nav>
     );
