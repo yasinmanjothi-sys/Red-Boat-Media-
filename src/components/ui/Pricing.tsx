@@ -22,7 +22,7 @@ export default function Pricing() {
                             <Feature text="No Email" />
                         </ul>
 
-                        <Link href="#" className="w-full block text-center bg-transparent border border-white text-white hover:bg-[#8B0000] hover:border-[#8B0000] py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300">
+                        <Link href="http://manage.redboatmedia.com/domain-required?p=283029-INF-dfw" className="w-full block text-center bg-transparent border border-white text-white hover:bg-[#8B0000] hover:border-[#8B0000] py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300">
                             Deploy System
                         </Link>
                     </div>
@@ -43,7 +43,7 @@ export default function Pricing() {
                             <Feature text="WordPress Ready" />
                         </ul>
 
-                        <Link href="#" className="w-full block text-center bg-[#8B0000] text-white hover:bg-[#D91E1E] py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300">
+                        <Link href="http://manage.redboatmedia.com/domain-required?p=283033-INF-dfw" className="w-full block text-center bg-[#8B0000] text-white hover:bg-[#D91E1E] py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300">
                             Acquire Suite
                         </Link>
                     </div>
@@ -60,7 +60,7 @@ export default function Pricing() {
                             <Feature text="Encrypted Storage" />
                         </ul>
 
-                        <Link href="#" className="w-full block text-center bg-transparent border border-white text-white hover:bg-[#8B0000] hover:border-[#8B0000] py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300">
+                        <Link href="http://manage.redboatmedia.com/domain-required?p=283031-INF-dfw" className="w-full block text-center bg-transparent border border-white text-white hover:bg-[#8B0000] hover:border-[#8B0000] py-4 text-sm font-bold tracking-widest uppercase transition-all duration-300">
                             Initialize Email
                         </Link>
                     </div>
