@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowRight, Server, Mail, ConciergeBell } from "lucide-react";
 import Compass from "@/components/ui/Compass";
 import FleetGallery from "@/components/ui/FleetGallery";
+import Pricing from "@/components/ui/Pricing";
 
 export default function Home() {
     return (
@@ -55,6 +56,9 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            <Pricing />
+
             {/* Section 2: The Transition (The Waterline) */}
             <section className="relative w-full bg-[#050505] text-white">
                 {/* Visual Waterline Separator */}
